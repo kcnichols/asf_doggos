@@ -1,0 +1,50 @@
+{
+  "name": "asf_doggos",
+  "version": "1.0.0",
+  "description": "A list of dogs retrieved from Petfinder API used to dynamically display dogs on ASF's website (possibly)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcnichols/asf_doggos.git"
+  },
+  "keywords": [
+    "dogs",
+    "doggos",
+    "pups",
+    "puppy",
+    "animals",
+    "pets",
+    "petfinder",
+    "australian",
+    "shepherds",
+    "aussies",
+    "furever"
+  ],
+  "author": "KC Nichols",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcnichols/asf_doggos/issues"
+  },
+  "homepage": "https://github.com/kcnichols/asf_doggos#readme",
+  "dependencies": {
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "webpack-cli": "^2.0.13"
+  }
+}
