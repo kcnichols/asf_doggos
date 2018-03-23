@@ -11,6 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/kcnichols/asf_doggos.git"
   },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0",
+      "react"
+    ]
+  },
   "keywords": [
     "dogs",
     "doggos",
@@ -31,6 +38,7 @@
   },
   "homepage": "https://github.com/kcnichols/asf_doggos#readme",
   "dependencies": {
+    "fetch-jsonp": "^1.1.3",
     "react": "15.4.2",
     "react-dom": "15.4.2",
     "webpack": "^3.8.1",
